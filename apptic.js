@@ -1,5 +1,7 @@
 document.querySelector('.board').addEventListener('click',(e)=>{inputs(e)});
 
+
+
 const inputs = (e) => {
     for (let i = 0; i < 10; i++) {
         if (e.target.classList.contains(`cell${i}`)) {

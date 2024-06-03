@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+/* STYLE */
+
+body {
+    font-family: 'Inter';
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    color:rgb(74, 74, 162);
+}
+
+.restart {
+    margin: 20px;
+    padding: 2px;
+    border-radius: 7px;
+    border-color: blanchedalmond;
+    background-color: rgb(207, 238, 228);
+    color:rgb(85, 113, 104);
+}
+
+.board {
+    margin: 0 auto;
+    background-color: rgb(237, 237, 198);
+    max-width: 300px;
+    min-height: 300px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr
+}
+
+.board > *{
+    border: solid rgb(126, 108, 108);
+}
+.win {
+    color: rgb(227, 83, 83);
+    font-size: 20px;
+}
